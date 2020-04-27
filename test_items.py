@@ -26,8 +26,7 @@ class TestBasketBtn(object):
             message = "Button not found"
         if countOfBtns > 1:
             message = "Selector is not unique"
-
-        #если  0 = количество_кнопок или количество_кнопок > 1     
+   
         assert countOfBtns == 1, message 
 
         #нужен ключ -s при запуске
